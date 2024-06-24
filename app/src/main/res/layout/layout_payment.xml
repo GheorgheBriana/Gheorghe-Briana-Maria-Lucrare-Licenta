@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/loginCard"
+    app:cardCornerRadius="@dimen/loginCard"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginView"
+    android:layout_marginBottom="@dimen/loginView"
+    android:background="@color/whiteColor">
+
+
+    <LinearLayout
+        style="@style/linearParent"
+        android:layout_gravity="center"
+        android:padding="@dimen/loginView">
+
+        <TextView
+            android:id="@+id/txt_select_acc_pay"
+            style="@style/headerTextPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/loginView"
+            android:text="@string/select_account_pay" />
+
+        <Spinner
+            android:id="@+id/spn_select_acc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_from_acc_title" />
+
+        <TextView
+            android:id="@+id/txt_no_payees"
+            style="@style/headerTextPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/loginView"
+            android:text="@string/no_payees" />
+        <TextView
+            android:id="@+id/txt_select_payee"
+            style="@style/headerTextPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/loginView"
+            android:text="@string/select_payee" />
+        <Spinner
+            android:id="@+id/spn_select_payee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_from_acc_title" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEmail"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginView">
+
+            <EditText
+                android:id="@+id/edt_payment_amount"
+                style="@style/modifiedEditText"
+                android:hint="@string/amount_payee"
+                android:inputType="numberDecimal"
+                android:textSize="20dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_make_payment"
+            style="@style/loginButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/loginView"
+            android:text="@string/confirm_transfer" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

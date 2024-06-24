@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_trans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/deposit_icon" />
+
+    <TextView
+        android:id="@+id/transaction_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/image_trans"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="TRANS_TYPE: TRANS_ID" />
+
+    <TextView
+        android:id="@+id/trans_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@+id/image_trans"
+        app:layout_constraintTop_toBottomOf="@+id/transaction_type"
+        tools:text="TRANS_TIMESTAMP" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@+id/image_trans"
+        app:layout_constraintTop_toBottomOf="@+id/trans_date"
+        tools:text="TRANS_INFO" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Small"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/image_trans"
+        app:layout_constraintTop_toBottomOf="@+id/info"
+        tools:text="AMOUNT: $AMOUNT" />
+</androidx.constraintlayout.widget.ConstraintLayout>

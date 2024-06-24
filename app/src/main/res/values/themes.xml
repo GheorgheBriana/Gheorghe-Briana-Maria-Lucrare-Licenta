@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppTheme.Fullscreen" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/Widget.AppTheme.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.BankAppDemomaster.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue</item>
+        <item name="fullscreenTextColor">@color/light_blue_3</item>
+    </style>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#8d70bd</color>
+    <color name="colorPrimaryDark">#a38cca</color>
+    <color name="colorAccent">#baa9d7</color>
+    <color name="background">#e9e4f0</color>
+
+    <color name="header">#717171</color>
+    <color name="menu">#e8e8e8</color>
+    <color name="light_blue">#FF039BE5</color>
+    <color name="light_blue_2">#FF01579B</color>
+    <color name="light_blue_3">#FF40C4FF</color>
+    <color name="light_blue_4">#FF00B0FF</color>
+    <color name="black_">#66000000</color>
+
+
+    <color name="white">#ededf2</color>
+    <color name="red">#EF5350</color>
+    <color name="Chirie">#FFA726</color>
+    <color name="Mancare">#66BB6A</color>
+    <color name="Transport">#EF5350</color>
+    <color name="Cumparaturi">#29B6F6</color>
+    <color name="Utilitati">#EEFB07</color>
+
+    <color name="white2">#fff</color>
+    <color name="primaryColor">#a38cca</color>
+    <color name="loginColor">#f0f0f0</color>
+
+    <color name="whiteColor">#fff</color>
+</resources>

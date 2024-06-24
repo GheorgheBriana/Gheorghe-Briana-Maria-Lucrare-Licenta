@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Colibri Banking</string>
+    <string name="wrong_login">Wrong Username or Password</string>
+    <string name="account_created">Account Created</string>
+    <string name="account_creation">Account Creation Cancelled</string>
+    <string name="username">Username</string>
+    <string name="select_account_pay">Select an Account to Pay from</string>
+    <string name="no_payees">You do not have Payees</string>
+    <string name="select_payee">Select a Payee</string>
+    <string name="amount_payee">Amount</string>
+    <string name="account_name_check">Account name is too higher (ten characters)</string>
+    <string name="select_sending">Select Sending Account</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Profile</string>
+
+
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="trans_filters">
+        <item>All</item>
+        <item>Payments</item>
+        <item>Transfers</item>
+        <item>Deposits</item>
+    </string-array>
+    <string name="happy">Happy</string>
+    <string name="good_evening">Good evening</string>
+    <string name="good_afternoon">Good afternoon</string>
+    <string name="good_morning">Good morning</string>
+    <string name="account_no">Account no </string>
+    <string name="select_account">Select an Account</string>
+    <string name="account_added">Account added</string>
+    <string name="account_name_exist">You already have an account with that name</string>
+    <string name="select_receiving">Select Receiving Account</string>
+    <string name="transfer_amount">Transfer Amount</string>
+    <string name="confirm_transfer">Confirm Transfer</string>
+    <string name="nav_header">Navigation header</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="country">Country</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="remember">Remember Credentials</string>
+    <string name="blank_fields">You have blank fields</string>
+    <string name="password_incorrect">Different passwords</string>
+    <string name="password_too_short">The password must contain at least 8 characters</string>
+    <string name="navigation_open">Open navigation drawer</string>
+    <string name="navigation_close">Close navigation drawer</string>
+
+
+
+    <string-array name="date_filters">
+        <item>Old - New</item>
+        <item>New - Old</item>
+    </string-array>
+    <string name="register">REGISTER</string>
+    <string name="login_email">Username</string>
+    <string name="login_password">Password</string>
+    <string name="signup_login">Already have an account? Sign In</string>
+    <string name="setting_up_profile">Setting Up Your Profile</string>
+    <string name="date">24062024</string>
+    <string name="salary">Salary</string>
+    <string name="salary_receipt">Payday</string>
+    <string name="other_incomes">Other Incomes</string>
+    <string name="bank_rates">Loans</string>
+    <string name="signup">Don\'t have an account? Sign Up</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:itemTextAppearance="@style/MenuItems"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/dashboard_"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/accounts"
+            android:icon="@drawable/accounts"
+            android:title="Accounts" />
+
+        <item android:title="Transaction">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_deposit"
+                        android:icon="@drawable/deposit"
+                        android:title="Deposit" />
+                    <item
+                        android:id="@+id/nav_transfer"
+                        android:icon="@drawable/transfer2"
+                        android:title="Transfer" />
+                    <item
+                        android:id="@+id/nav_payment"
+                        android:icon="@drawable/payment"
+                        android:title="Payment" />
+                    <item
+                        android:id="@+id/nav_report"
+                        android:icon="@drawable/report"
+                        android:title="Report" />
+                    <item
+                        android:id="@+id/nav_setup"
+                        android:icon="@drawable/baseline_admin_panel_settings_24"
+                        android:title="Setup" />
+                </group>
+            </menu>
+
+        </item>
+        <item android:title="Profile">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_logout"
+                        android:icon="@drawable/logout"
+                        android:title="Logout" />
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
