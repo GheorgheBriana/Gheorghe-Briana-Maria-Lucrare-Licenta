@@ -206,7 +206,7 @@ public class Account extends Fragment {
             }
 
             if(incomesInt > 0){
-                sum-=incomesInt;
+                sum+=incomesInt;
             }
             if(ratesInt > 0){
                 sum-=ratesInt;
